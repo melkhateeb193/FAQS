@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+*{
+    --font-family: 'Work Sans', sans-serif;
+    --White: hsl(0, 0%, 100%);
+    --Light-pink: hsl(275, 100%, 97%);
+    --Grayish-purple: hsl(292, 16%, 49%);
+    --submit-button-background:  hsl(271, 36%, 24%);
+    --Dark-purple: hsl(292, 42%, 14%);
+    }
+    body {
+        font-family: var(--font-family);
+        background-image: url(../assets/images/background-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        background-color: var(--Light-pink);
+    }
+    #Container
+    {
+        width: 650px;
+    }
+    h2 
+    {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    h2:hover {
+        color: var(--submit-button-background);
+    }
+    #FAQsID 
+    {
+        font-family: var(--font-family);
+        font-weight: 700;
+        color: var(--Dark-purple);
+    }
+  .plus
+    {
+        cursor: pointer;
+    }
+    .minus 
+    {
+        cursor: pointer;
+    }
+    p.toggle-content.d-block{
+        color: var(--Grayish-purple);
+    }
